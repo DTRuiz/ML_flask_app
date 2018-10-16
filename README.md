@@ -1,7 +1,7 @@
 # ML Flask api
 Using scikit learn to build a simple logistic regression model for the Iris data set, we persist the model with pickle. We then use Flask as our api backend to serve our pickled model.
 
-# Endpoint
+## Endpoint
 ### /predict
 Our predict endpoint will return a JSON object with the class probabilities of our input variables.
 
